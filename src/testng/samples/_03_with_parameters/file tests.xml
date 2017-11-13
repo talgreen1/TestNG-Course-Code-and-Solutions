@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+
+	<parameter name="fileName"  value="c:/temp/file1.txt"/>
+	<parameter name="fileContent"  value="Hello file"/>
+	
+	<test name="Web Tests">
+		<classes>
+			<class name="testng.samples._03_with_parameters.tests.FileTests" />
+		</classes>
+	</test>
+</suite>

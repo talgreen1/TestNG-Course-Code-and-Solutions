@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+	<test name="File Tests">
+		<classes>
+			<class name="testng.samples._08_annotations.tests.FileTests1" />
+			<class name="testng.samples._08_annotations.tests.FileTests2" />
+		</classes>
+	</test>
+
+	<test name="Web Tests">
+		<classes>
+			<class name="testng.samples._08_annotations.tests.WebTests" />
+		</classes>
+	</test>
+</suite>

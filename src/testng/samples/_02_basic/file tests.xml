@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+	<test name="Web Tests">
+		<classes>
+			<class name="testng.samples._02_basic.tests.FileTests" />
+		</classes>
+	</test>
+</suite>

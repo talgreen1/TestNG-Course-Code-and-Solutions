@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite2" verbose="1">
+	<test name="test 1 - file tests">
+		<classes>
+			<class name="testng.exercises._06_annotation_fields.tests.FileTests" />
+		</classes>
+	</test>
+
+	<test name="test 2 - web tests">
+		<classes>
+			<class name="testng.exercises._06_annotation_fields.tests.WebTests" />
+		</classes>
+	</test>
+</suite>

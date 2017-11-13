@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite3" verbose="1">
+	<test name="test 1 - file tests">
+		<groups>
+			<run>
+				<exclude name="ignore" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="testng.exercises._07_groups.tests" />
+		</packages>
+	</test>
+</suite>

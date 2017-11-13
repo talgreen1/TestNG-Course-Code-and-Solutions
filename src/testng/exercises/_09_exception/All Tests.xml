@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FTP Client Tests" verbose="1">
+	
+	<test name="Test create file without login">
+		<classes>
+			<class name="testng.exercises._09_exception.FTPClientTests" />
+		</classes>
+	</test>	
+</suite>
