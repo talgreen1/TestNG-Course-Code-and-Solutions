@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FTP Client Tests" verbose="2">
+	
+	<test name="FTP Client File Tests">
+		<classes>
+			<class name="testng.exercises._14_ftp_client_login_and_file_tests_dataprovider.tests.TestManager"/>
+			<class name="testng.exercises._14_ftp_client_login_and_file_tests_dataprovider.tests.file.FileTests" />
+		</classes>
+	</test>
+</suite>

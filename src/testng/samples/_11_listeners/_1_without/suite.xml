@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+    <test name="Test 1">
+        <classes>
+            <class name="testng.samples._11_listeners._1_without.App1"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="testng.samples._11_listeners._1_without.GlobalInit"/>
+            <class name="testng.samples._11_listeners._1_without.App2"/>
+        </classes>
+    </test>
+</suite>

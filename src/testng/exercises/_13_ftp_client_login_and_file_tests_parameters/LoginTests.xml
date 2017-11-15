@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FTP Client Tests" verbose="2">
+	
+	<test name="FTP Client Login Tests">
+		<parameter name="invalidUsername" value="admin1"/>
+		<parameter name="invalidPassword" value="admin1"/>
+		<classes>
+			<class name="testng.exercises._13_ftp_client_login_and_file_tests_parameters.tests.TestManager"/>
+			<class name="testng.exercises._13_ftp_client_login_and_file_tests_parameters.tests.login.LoginTests" />
+		</classes>
+	</test>
+</suite>

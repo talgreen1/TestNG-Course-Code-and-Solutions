@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+    <listeners>
+        <listener class-name="testng.samples._11_listeners._2_with.TestManager" />
+    </listeners>
+
+
+    <test name="Test 1">
+        <classes>
+            <class name="testng.samples._11_listeners._2_with.App1"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="testng.samples._11_listeners._2_with.App2"/>
+        </classes>
+    </test>
+</suite>

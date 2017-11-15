@@ -1,12 +1,12 @@
 package testng.excelutils;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * This class reads data from Excel sheet and returns it as Object [][].
@@ -36,7 +36,7 @@ public class ExcelUtils
 	public static Object[][] getTableArray(String FilePath, String SheetName) throws Exception
 	{
 
-		System.out.println("\n\t\t* * In ExcelUtils - getTableArray(). FilePath=" + FilePath + ", SheetName=" + SheetName);
+//		System.out.println("\n\t\t* * In ExcelUtils - getTableArray(). FilePath=" + FilePath + ", SheetName=" + SheetName);
 		String[][] tabArray = null;
 
 		try
@@ -59,14 +59,14 @@ public class ExcelUtils
 			tabArray = new String[totalRows][totalCols];
 			ci = 0;
 
-			System.out.println("Reading parameters from exce:");
+			//System.out.println("Reading parameters from excel:");
 			for (int i = startRow; i <= totalRows; i++, ci++)
 			{
 				cj = 0;
 				for (int j = startCol; j < totalCols; j++, cj++)
 				{
 					tabArray[ci][cj] = getCellData(i, j);
-					System.out.println(tabArray[ci][cj]);
+//					System.out.println(tabArray[ci][cj]);
 				}
 			}
 		}

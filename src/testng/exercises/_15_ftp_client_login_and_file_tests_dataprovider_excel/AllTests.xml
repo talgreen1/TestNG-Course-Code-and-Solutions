@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FTP Client Tests" verbose="2">
+	
+	<test name="FTP Client File Tests">
+		<classes>
+			<class name="testng.exercises._15_ftp_client_login_and_file_tests_dataprovider_excel.tests.TestManager"/>
+			<class name="testng.exercises._15_ftp_client_login_and_file_tests_dataprovider_excel.tests.file.FileTests" />
+		</classes>
+	</test>
+
+	<test name="FTP Client Login Tests">
+		<classes>
+			<class name="testng.exercises._15_ftp_client_login_and_file_tests_dataprovider_excel.tests.TestManager"/>
+			<class name="testng.exercises._15_ftp_client_login_and_file_tests_dataprovider_excel.tests.login.LoginTests" />
+		</classes>
+	</test>
+</suite>

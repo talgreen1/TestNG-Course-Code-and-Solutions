@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+	<test name="Fail and Dependencies">
+		<classes>
+			<class name="testng.samples._10_dependencies.test_order.App" />
+		</classes>
+	</test>
+</suite>
