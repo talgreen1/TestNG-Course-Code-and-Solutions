@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="testng.samples._13_iretryanalyzer.with_annotation_transformer.AddRetryAnnotationTransformer"/>
+	</listeners>
+
+	<test name="All Tests">
+		<classes>
+			<class name="testng.samples._13_iretryanalyzer.with_annotation_transformer.FileTests" />
+		</classes>
+	</test>
+</suite>
