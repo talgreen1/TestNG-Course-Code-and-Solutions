@@ -3,12 +3,12 @@
 <suite name="TestNG Suite" verbose="1">
 
 	<listeners>
-		<listener class-name="testng.samples._12_iannotationtransformer.Transformer" />
+		<listener class-name="testng.samples._12_iannotationtransformer.by_name.Transformer" />
 	</listeners>
 
 	<test name="All Tests">
 		<classes>
-			<class name="testng.samples._12_iannotationtransformer.FileTests" />
+			<class name="testng.samples._12_iannotationtransformer.by_name.FileTests" />
 		</classes>
 	</test>
 </suite>

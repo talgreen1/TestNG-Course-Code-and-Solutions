@@ -1,4 +1,4 @@
-package testng.samples._12_iannotationtransformer;
+package testng.samples._12_iannotationtransformer.by_name;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
