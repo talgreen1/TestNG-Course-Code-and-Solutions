@@ -19,7 +19,6 @@ public class FileTests
 	private void test1()
 	{
 		System.out.println("\t In FileTests1 - Test 1");
-		throw new SkipException("sdf");
 	}
 	
 	
