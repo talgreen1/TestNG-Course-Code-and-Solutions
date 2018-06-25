@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="testng.samples._14_IMethodInterceptor.TestOrderRandomizer"></listener>
+	</listeners>
+
+	<test name="All Tests">
+		<classes>
+			<class name="testng.samples._14_IMethodInterceptor.FileTests" />
+		</classes>
+	</test>
+</suite>
