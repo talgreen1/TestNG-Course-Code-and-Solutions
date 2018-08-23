@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1">
+	<groups>
+		<run>
+			<include name="sanity"></include>
+		</run>
+	</groups>
+
+	<test name="Web Tests">
+		<classes>
+			<class name="testng.samples._02_basic.tests.groups_a.FileTests" />
+		</classes>
+	</test>
+</suite>
